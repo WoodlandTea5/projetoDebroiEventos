@@ -1,0 +1,38 @@
+@import url('/css/global.css');
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.image-side {
+    flex: 1;
+    background: url('your-image-path.jpg') no-repeat center center/cover;
+}
+
+.login-side {
+    flex: 1;
+    background: linear-gradient(90deg, #06113C, #1B75D1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo span {
+    font-size: 0.8em;
+    color: #b3c7f1;
+}

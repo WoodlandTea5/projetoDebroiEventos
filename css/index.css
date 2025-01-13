@@ -1,0 +1,14 @@
+@import url('/css/global.css');
+/* Estilos específicos para o index.html */
+.w3-container h2 {
+    text-align: center;
+    color: #0044cc;
+}
+
+.w3-card-4 img {
+    border-radius: 5px;
+}
+
+.w3-row-padding {
+    margin-top: 20px;
+}
