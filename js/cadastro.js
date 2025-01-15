@@ -12,8 +12,9 @@ document.getElementById("cadastro-form").addEventListener("submit", function(eve
         return;
     }
 
-    if (nome && email && telefone && cpf && senha) {
+    if (nome && email && senha) {
         alert("Cadastro realizado com sucesso!");
+        window.location.href = "login.html";
     } else {
         alert("Por favor, preencha todos os campos.");
     }
